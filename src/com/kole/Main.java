@@ -15,5 +15,8 @@ public class Main {
 //        BankAccount noviAccount = new BankAccount("Time", "kolelel@dsad.com", "2136");
 //        System.out.println(noviAccount.getCustomerName());
 
+        VipCustomer kole = new VipCustomer("Kole", "kole@kole.com");
+        System.out.println(kole.getCreditLimit());
+
     }
 }
